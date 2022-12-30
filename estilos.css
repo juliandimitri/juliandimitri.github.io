@@ -1,0 +1,19 @@
+h1{
+    background-color: red;
+}
+
+nav.navbar{
+    padding: 2rem;
+    padding-right: 10%;
+    background-color: rgb(248, 199, 92);  
+    font-size: large;
+    word-spacing: 4pt;
+    
+    font-family: 'Rubik Dirt', cursive;
+
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
