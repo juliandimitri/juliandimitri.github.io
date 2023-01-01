@@ -11,9 +11,10 @@ div.header{
     
     color:rgb(0, 0, 0);
     text-align: center;
+    
     font-family: 'Galada', cursive;
-    font-weight: 5;
-    font-size: large;
+    
+    
 }
 
 img.perfil{
@@ -23,6 +24,7 @@ img.perfil{
     border-width: 5px;
     border-style: solid;
     border-color: rgb(247, 185, 71);
+    
 
     
 }
@@ -35,13 +37,22 @@ img.perfil{
 
 
 nav.navbar{
-    background: rgb(247, 185, 71);
-    background: linear-gradient(90deg, rgb(247, 185, 71) 53%, rgb(255, 255, 255) 100%);
+    display:flex;
+    background: transparent !important;
     font-family: 'Galada', cursive;
-    padding-top: 0.1px;
+    
     color:rgb(255, 255, 255);
+    
 
 }
+
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0 0 0);
@@ -69,14 +80,14 @@ nav.navbar{
 }*/
 
 div.principal{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pc2.jpg");
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pc2.jpg");
     background-size: cover;
     opacity: 1;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);*/
     min-height: 650px;
     justify-content: center;
     text-align: center;
-    padding-top: 5%;
+    
     padding-bottom: 1%;
     margin:auto;
     padding-right: 70px;
@@ -91,6 +102,16 @@ h1.nombre{
     
 }
 
+a.nav-link.home  {
+    color: rgb(247, 185, 71);
+}
+
+
+
+a.nav-link.home:hover  {
+    color: rgb(224, 198, 149);
+}
+
 h2.descripcion{
     font-family: 'Galada', cursive;
     color:rgb(247, 185, 71);
@@ -100,14 +121,21 @@ h2.descripcion{
 
 
 div.collapse{
-    padding-right: 2%;
+    
     font-size: 20px;
 }
 
 a.navbar-brand{
-    padding-left: 10px;
+    padding-left: 50px;
     font-size:50px;
-    color: rgb(0, 0, 0);
+    color: rgb(247, 185, 71)
+}
+
+
+
+
+a.navbar-brand:hover  {
+    color: rgb(224, 198, 149);
 }
 
 div.experiencia{
@@ -136,8 +164,7 @@ div.estudios{
     margin-top: 30px;
     padding-top: 30 px;
     display:block;
-    padding-left: 90px;
-    padding-right: 90px;
+    
     line-height: 65px;
 }
 
@@ -160,6 +187,8 @@ p.estudios{
 
 p.lor{
     font-size:30px;
+    padding-right:20px;
+    padding-left: 20px;
 }
 
 section.info_exp_est{
@@ -245,8 +274,15 @@ h4.logo{
 }
 
 a.nav-link{
-    color:black;
+    color: rgb(247, 185, 71);
+    font-size:30px;
+    
 }
+
+a.nav-link:hover  {
+    color: rgb(224, 198, 149);
+}
+
 
 section.acerca_de_mi{
    
@@ -357,7 +393,17 @@ section.acerca_de_mi{
 }
 
 
+div.encabezado{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pc2.jpg");
+    background-size:cover;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+    
 
+}
 
 .readMore_btn {
   background-color: #4caf50;
@@ -436,3 +482,11 @@ div.iconss i{
     font-size: 100px;
     color: white;
 }
+
+div.row{
+    margin-right: 0px;
+ }
+ 
+ div.container-fluid{
+    padding-right: 0px;
+ }
