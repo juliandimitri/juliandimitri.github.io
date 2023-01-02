@@ -453,6 +453,12 @@ div.encabezado{
 
 }
 
+@media screen and (min-width:1280px){
+    div.encabezado{
+        height: 100vh;
+    }
+}
+
 .readMore_btn {
   background-color: #4caf50;
   border: none;
