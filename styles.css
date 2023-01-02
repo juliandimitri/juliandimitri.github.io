@@ -257,11 +257,16 @@ button.btn:hover:active{
 section.conocimientos{
     
     
-    background: rgb(255,255,255);
-    background: linear-gradient(270deg, rgb(255,121,3) 0%, rgb(255, 255, 255) 50%);
+    background: url("wb.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding-top:100px;
     padding-right: 30px;
     padding-left: 30px;
+    background-position-x: center;
+    background-position: center;
+    
 
     
 }
@@ -528,3 +533,4 @@ div.row{
  div.fotoquien{
     text-align: center;
  }
+
