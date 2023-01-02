@@ -107,6 +107,7 @@ div.principal{
     opacity: 1;
     backdrop-filter: blur(10px);
     min-height: 650px;*/
+    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -307,10 +308,13 @@ section.conocimientos{
 }
 
 img.logoprog{
+    display: flex;
     height: 70%;
     width: 50%;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     margin-left: 27%;
     padding-top: 60px;
     
