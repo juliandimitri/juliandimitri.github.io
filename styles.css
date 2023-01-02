@@ -449,6 +449,7 @@ div.encabezado{
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;  
+    padding-bottom: 4px;
     
 
 }
