@@ -313,14 +313,15 @@ a.nav-link:hover  {
 
 
 section.acerca_de_mi{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("fot8.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("fot3.jpeg");
     background-size: cover;
     opacity: 1;
+    background-position: center;
     color: white;
     height: auto;
-    width: 100%;
+    width: auto;
     background-attachment: scroll;
-    background-position: center;
+    
     background-repeat: no-repeat;  
     color: rgb(247, 185, 71);
 }
@@ -434,7 +435,7 @@ section.acerca_de_mi{
 
 
 div.encabezado{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pc2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("pc2.jpg");
     background-size:cover;
     opacity: 1;
     backdrop-filter: blur(10px);
