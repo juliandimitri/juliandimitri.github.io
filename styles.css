@@ -104,8 +104,8 @@ div.principal{
     height: auto;
     padding-bottom: 1%;
     margin:auto;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 h1.nombre{
@@ -140,7 +140,7 @@ div.collapse{
 }
 
 a.navbar-brand{
-    padding-left: 50px;
+    padding-left: 30px;
     font-size:50px;
     color: rgb(247, 185, 71)
 }
@@ -427,7 +427,7 @@ div.encabezado{
     width: auto;
     height:auto;
     background-attachment: scroll;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;  
     
 
