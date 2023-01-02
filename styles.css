@@ -102,7 +102,8 @@ div.principal{
     align-items: center;
     width: 100%;
     height: auto;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
+    padding-top: 2%;
     margin:auto;
     padding-right: 30px;
     padding-left: 30px;
@@ -252,6 +253,10 @@ button.btn:hover:active{
     outline: none;
 }
 
+div.prueba{
+    height:100vh;
+
+}
 
 
 section.conocimientos{
