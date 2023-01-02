@@ -212,7 +212,7 @@ p.lor{
 
 section.info_exp_est{
     background: rgb(255,255,255);
-    background: linear-gradient(270deg, rgb(255,121,3) 0%, rgb(255, 255, 255) 50%);
+    background: linear-gradient(270deg, rgb(51, 91, 128) 0%, rgb(255, 255, 255) 90%);
     padding-right: 40 px;
     padding-left: 40px;
 }
@@ -257,11 +257,11 @@ button.btn:hover:active{
 section.conocimientos{
     
     
-    background: linear-gradient(rgba(252, 230, 133, 0.5), rgba(255, 255, 255, 0.7)),url("wb.jpg");
+    background: linear-gradient(rgb(51, 91, 128,0.3), rgba(255, 255, 255, 0.3)),url("wb.jpg");
     background-repeat:no-repeat;
     background-attachment: scroll;
     background-size: cover;
-    backdrop-filter: brightness(0.9);
+    
     padding-top:50px;
     padding-right: 30px;
     padding-left: 30px;
@@ -313,7 +313,7 @@ a.nav-link:hover  {
 
 
 section.acerca_de_mi{
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4)), url("fot3.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("fot3.jpeg");
     background-size: cover;
     opacity: 1;
     background-position: center;
@@ -435,7 +435,7 @@ section.acerca_de_mi{
 
 
 div.encabezado{
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url("pc2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("pc2.jpg");
     background-size:cover;
     opacity: 1;
     backdrop-filter: blur(10px);
