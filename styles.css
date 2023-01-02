@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 section{
     display: flex;
     flex-direction: column;
@@ -449,7 +453,7 @@ div.encabezado{
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;  
-    padding-bottom: 4px;
+    
     
 
 }
@@ -463,7 +467,7 @@ div.encabezado{
 
 @media screen and (max-width:1280px){
     div.encabezado{
-        padding-bottom:20px  ;
+        padding-bottom:50px  ;
     }
 }
 
