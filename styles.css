@@ -654,7 +654,7 @@ div.row{
         margin: 8px;
         box-sizing: border-box;
         border: 32px solid #fff;
-        border-color: #fff transparent #fff transparent;
+        border-color: rgb(255, 153, 0) transparent rgb(255, 153, 0) transparent;
         animation: lds-hourglass 1.2s infinite;
       }
       @keyframes lds-hourglass {
