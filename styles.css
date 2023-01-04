@@ -280,7 +280,7 @@ button.btn::before, button.btn::after{
 }
 
 button.btn:hover:active{
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(255, 125, 3);
     border: none;
     outline: none;
 }
@@ -294,7 +294,7 @@ div.prueba{
 section.conocimientos{
     
     
-    background: linear-gradient(rgb(51, 91, 128,0.3), rgba(255, 255, 255, 0.3)),url("wb.jpg");
+    background: linear-gradient(rgba(247, 247, 247, 0.6), rgba(255, 255, 255, 0.3)),url("wb.jpg");
     background-repeat:no-repeat;
     background-attachment: scroll;
     background-size: cover;
