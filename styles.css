@@ -734,3 +734,13 @@ div.row{
 
     
 }  
+
+h4.coninf{
+    font-family: 'Galada', cursive;;
+}
+
+div.coninfo{
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
