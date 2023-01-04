@@ -244,8 +244,9 @@ p.lor{
 }
 
 section.info_exp_est{
-    background: rgb(255,255,255);
-    background: linear-gradient(270deg, rgb(51, 91, 128) 0%, rgb(255, 255, 255) 90%);
+    /*background: rgb(255,255,255);
+    background: linear-gradient(270deg, rgb(51, 91, 128) 0%, rgb(255, 255, 255) 90%);*/
+    background-image: url("back.png");
     
 }
 
@@ -352,7 +353,7 @@ a.nav-link:hover  {
 
 
 section.acerca_de_mi{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("fot3.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(131, 127, 127, 0.281)), url("laptop.jpg");
     background-size: cover;
     opacity: 1;
     background-position: center;
@@ -474,7 +475,7 @@ section.acerca_de_mi{
 
 
 div.encabezado{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("pc2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("pc2.jpg");
     background-size:cover;
     opacity: 1;
     backdrop-filter: blur(10px);
@@ -532,7 +533,8 @@ div.encabezado{
 }
 
 footer.seccion-oscura{
-    background-color: black;
+    background-image: url(footer.jpg);
+    background-size: cover;
     padding-bottom: 20px;
     padding-top: 20px;
 }
