@@ -6,3 +6,4 @@ function cargando_pagina() {
     logo_loading.classList.add('loaded');
   }
   
+  

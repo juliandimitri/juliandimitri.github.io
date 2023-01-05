@@ -736,7 +736,8 @@ div.row{
 }  
 
 h4.coninf{
-    font-family: 'Galada', cursive;;
+    font-family: 'Galada', cursive;
+    color: #000000;
 }
 
 div.coninfo{
