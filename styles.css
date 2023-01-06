@@ -745,3 +745,24 @@ div.coninfo{
     padding-left: 20px;
     
 }
+
+.imagenmistrabajos{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+
+
+.mistrabajos{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 1)), url("backcv.jpg");
+    background-size:cover;
+    opacity: 1;
+    backdrop-filter: blur(10px);
+    width: auto;
+    height:auto;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;  
+    padding-bottom: 40px;
+    
+}
